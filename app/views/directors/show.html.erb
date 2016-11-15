@@ -15,8 +15,9 @@
       <dd><%= @director.bio %></dd>
 
       <dt>Image url</dt>
-      <dd><%= @director.image_url %></dd>
-
+      <dd>
+        <img src="<%= @director.image_url %>">
+      </dd>
     </dl>
 
     <div class="btn-group btn-group-justified">
